@@ -3,6 +3,8 @@
 
 
 int main (){
-int variable, variable2=3;
-printf("%d",'varable2');
+double number=12.5;
+float number1=10;
+printf("number=%lf",number);
+printf("\nnumber1=%f",number1);
 return 0;}
