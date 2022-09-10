@@ -3,7 +3,8 @@
 
 
 int main (){
-const int mynum=15; // my num will be constant
-mynum =10; // error assignment of read only variable 'my num'
+int x=3;
+ x-=1;
+printf("%d",x);
 
 return 0;}
