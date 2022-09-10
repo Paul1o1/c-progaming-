@@ -3,8 +3,7 @@
 
 
 int main (){
-double number=12.5;
-float number1=10;
-printf("number=%.2lf",number);
-printf("\nnumber1=%.1f",number1);
+const int mynum=15; // my num will be constant
+mynum =10; // error assignment of read only variable 'my num'
+
 return 0;}
