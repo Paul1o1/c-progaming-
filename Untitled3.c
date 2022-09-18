@@ -2,9 +2,13 @@
 #include <stdio.h>
 
 
-int main (){
-double number=12.5;
-float number1=10;
-printf("number=%.2lf",number);
-printf("\nnumber1=%.1f",number1);
-return 0;}
+int main() {
+    int i;
+    printf("enter a number=");
+    scanf("%d",&i);
+ do { printf("%d\n",i);
+i++;}
+while (i<10);
+
+
+return 0; }
