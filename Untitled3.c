@@ -2,8 +2,11 @@
 #include <stdio.h>
 
 
-int main (){
-const int mynum=15; // my num will be constant
-mynum =10; // error assignment of read only variable 'my num'
+int main() {
+    int i;
+    for (i=0; i<5;i++) {
+        printf("%d\n",i);
+    }
 
-return 0;}
+
+return 0; }
