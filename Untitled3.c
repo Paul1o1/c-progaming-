@@ -4,9 +4,13 @@
 
 int main() {
     int i;
-    for (i=0; i<5;i++) {
-        printf("%d\n",i);
-    }
+
+    printf("enter a number=");
+    scanf("%d",&i);
+ do { printf("%d\n",i);
+i++;}
+while (i<10);
+
 
 
 return 0; }
